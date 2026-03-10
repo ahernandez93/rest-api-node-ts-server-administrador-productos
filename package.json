@@ -1,0 +1,29 @@
+{
+  "name": "rest-api-node-ts-server",
+  "version": "1.0.0",
+  "description": "REST API's con Express y Typescript",
+  "homepage": "https://github.com/ahernandez93/rest-api-node-ts-server-administrador-productos#readme",
+  "bugs": {
+    "url": "https://github.com/ahernandez93/rest-api-node-ts-server-administrador-productos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahernandez93/rest-api-node-ts-server-administrador-productos.git"
+  },
+  "license": "ISC",
+  "author": "Allan Hernandez",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec tsx src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
