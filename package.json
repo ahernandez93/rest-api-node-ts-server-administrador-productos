@@ -15,7 +15,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec tsx src/index.ts",
-    "test": "jest"
+    "test": "jest --detectOpenHandles",
+    "pretest": "ts-node ./src/data --clear"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
